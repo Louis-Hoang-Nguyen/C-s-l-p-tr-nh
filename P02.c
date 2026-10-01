@@ -4,6 +4,6 @@ int main(void) {
     int b;
     scanf("%d %d", &a, &b);
     double c = (double) a/b;
-    printf("%d / %d = %.2lf", a, b, c);
+    printf("%d / %d = %.2lf\n", a, b, c);
     return 0;
 }
